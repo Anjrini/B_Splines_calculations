@@ -50,12 +50,12 @@ b_s<- function(x,knots,degree){
 library(ISLR2)
 library(splines)
 
-knots<-c(21,25,30,35,40,45,50,55,60,65,70,75)
-degree<- 4
+
+
 df<- Wage
 a<- df$age
-
-b_s(x = a,knots = knots,degree = 4)
+knots<-c(21,25,30,35,40,45,50,55,60,65,70,75)
+degree<- 4
 
 lm_1<- lm(wage~b_s(x = a,knots = knots,degree = 5),data = df)
 lm_2<- lm(wage~bs(x = a,degree = 5,knots = c(21,25,30,35,40,45,50,55,60,65,70,75)),data = df)
