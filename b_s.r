@@ -55,7 +55,6 @@ library(splines)
 df<- Wage
 a<- df$age
 knots<-c(21,25,30,35,40,45,50,55,60,65,70,75)
-degree<- 4
 
 lm_1<- lm(wage~b_s(x = a,knots = knots,degree = 5),data = df)
 lm_2<- lm(wage~bs(x = a,degree = 5,knots = knots),data = df)
