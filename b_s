@@ -1,4 +1,4 @@
-rm(list = ls())
+# Mustafa Anjrini on 27.08.2024
 
 b_s<- function(x,knots,degree){
   M<- degree+1 
