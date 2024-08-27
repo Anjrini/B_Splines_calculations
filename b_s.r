@@ -44,7 +44,7 @@ b_s<- function(x,knots,degree){
       }
   }
   
-  return(mm[,1:(k+M)])
+  return(mm[,1:(k+M-1)])
 }
 
 library(ISLR2)
