@@ -1,5 +1,5 @@
 # Basis_Functions
-Calculating the basis function for step functions (Cubic Splines, polynomials, ...etc)
+Calculating the B-Splines (basis function) for step functions (Cubic Splines, polynomials, ...etc)
 
 The script has been implemented in R language to calculate the basis functions of the cubic Splines, polynomials when used in step functions for regressions.
 It is indeed a self implementation of the function bs in the library Splines in R.
