@@ -6,8 +6,8 @@ It is indeed a self implementation of the function bs in the library Splines in 
 
 The values needed to be supplied to the function are:
 - x: a vector on which the function is going to be applied
-- Knots: where are the knots and thos should be located between min(x) till max(x)
-- Degree: choose the degree of the polynomial where 3 is presenting a cubic spline
+- knots: where are the knots and thos should be located between min(x) till max(x)
+- degree: choose the degree of the polynomial where 3 is presenting a cubic spline
 
 The results is a matrix containing the basis functions which can be used in regressions to get more flexible regressions as long as the degree is going up.
 
