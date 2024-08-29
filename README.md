@@ -1,5 +1,5 @@
 # B-Spline calculations of basis functions:
-Calculating the B-Splines (basis function) for step functions of order 1....n where n-> infinity
+Calculating the Cubic Spline (basis function) for step functions of order 1....n where n-> infinity and located between the boundaries.
 
 The script has been implemented in R language to calculate the basis functions of the cubic Splines, polynomials when used in step functions for regressions.
 It is indeed a self implementation of the function bs in the library Splines in R.
