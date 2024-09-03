@@ -4,7 +4,7 @@ b_s<- function(x,knots,degree){
   M<- degree+1 
   k<- length(knots) # N of knots
   
-  #row matrix of the basis functions
+  #raw matrix of the basis functions
   mm<-matrix(rep(0,length(a)*(k+2*M)),ncol = k+2*M)
   
   #constructing the t values of the knots
